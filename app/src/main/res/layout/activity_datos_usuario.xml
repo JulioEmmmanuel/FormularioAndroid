@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin_layout"
+    android:layout_marginLeft="@dimen/margin_layout"
+    android:layout_marginRight="@dimen/margin_layout"
+    android:layout_marginBottom="@dimen/margin_layout"
+    tools:context=".DatosUsuario">
+
+    <TextView
+        android:id="@+id/tituloConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_confirmar"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:layout_marginTop="@dimen/margin_text"/>
+
+    <TextView
+        android:id="@+id/textFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:layout_marginTop="@dimen/margin_text"/>
+
+    <TextView
+        android:id="@+id/textTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:layout_marginTop="@dimen/margin_text"/>
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_marginTop="@dimen/margin_text"/>
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_editar"/>
+</LinearLayout>
